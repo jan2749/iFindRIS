@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\ifind\\web\\web.csproj": {}
+    "c:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\iFind\\web\\web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\ifind\\web\\web.csproj": {
+    "c:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\iFind\\web\\web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\ifind\\web\\web.csproj",
+        "projectUniqueName": "c:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\iFind\\web\\web.csproj",
         "projectName": "web",
-        "projectPath": "C:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\ifind\\web\\web.csproj",
+        "projectPath": "c:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\iFind\\web\\web.csproj",
         "packagesPath": "C:\\Users\\jantu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\ifind\\web\\obj\\",
+        "outputPath": "c:\\Users\\jantu\\Faks2Letnik\\IS projekti\\iFind\\iFind\\web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jantu\\AppData\\Roaming\\NuGet\\NuGet.Config"

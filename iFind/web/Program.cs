@@ -13,7 +13,7 @@ var connectionString = builder.Configuration.GetConnectionString("PovezavaDoiFin
 builder.Services.AddDbContext<iFindContext>(options =>
     options.UseSqlServer(connectionString + ";TrustServerCertificate=True"));
 
-// Add services to the container.
+// Add services to the container. alla
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages(); // dodano tukaj, pred builder.Build()
 

@@ -247,7 +247,7 @@ namespace web.Migrations
                     b.Property<DateTime>("DatumCas")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("KategorijaId")
+                    b.Property<int?>("KategorijaId")
                         .HasColumnType("int");
 
                     b.Property<string>("Naziv")
@@ -391,9 +391,7 @@ namespace web.Migrations
                 {
                     b.HasOne("web.Models.Kategorija", "Kategorija")
                         .WithMany("Dogodki")
-                        .HasForeignKey("KategorijaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("KategorijaId");
 
                     b.HasOne("web.Models.ApplicationUser", "Organizator")
                         .WithMany("OrganiziraniDogodki")
